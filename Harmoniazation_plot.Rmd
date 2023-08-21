@@ -1,0 +1,133 @@
+---
+title: "Harmonization_plot"
+author: "Holly Cui"
+date: '2022-11-29'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+old <- read_csv("/Users/hollycui/Desktop/HDS/evaluation1.csv")
+new <- read_csv("/Users/hollycui/Desktop/HDS/full_evaluation1.csv")
+```
+
+```{r}
+new1 <- new %>%
+  rename(AUC1 = "AUC",
+         APS1 = "APS") 
+new1 = new1[-1]
+new1
+
+full <- old %>%
+  left_join(new1, by = "grouper")
+full = full[-1]
+full
+```
+```{r}
+full_long <- full %>%
+  pivot_longer(
+    cols = AUC:APS1,
+    names_to = "type"
+  )
+full_long
+```
+
+# AUC
+```{r}
+AUC1 <- AUC %>%
+  filter(type == "AUC1") %>%
+  mutate(grouper = fct_reorder(grouper, value, .desc = FALSE))
+
+ggplot(AUC1, aes(x = grouper, y = value)) +
+  geom_bar(stat = "identity", position = position_dodge(), alpha = 0.75)
+```
+
+
+```{r}
+AUC <- full_long %>%
+  filter((type == "AUC")|(type == "AUC1")) %>%
+  mutate(grouper = factor(grouper, levels = levels(AUC1$grouper)), 
+         type = case_when(
+           type == "AUC" ~ "Without Text", 
+           TRUE ~ "With Text"
+         ))
+
+ggplot(AUC, aes(x = grouper, y = value, fill = type)) +
+  geom_bar(stat = "identity", position = position_dodge(), alpha = 0.7) + 
+  theme_minimal() + 
+  scale_fill_manual(values=c('orange', 'sky blue')) + #CC79A7
+  coord_flip() + 
+  labs(x = "Grouper Labels", 
+       y = "Values", 
+       title = "AUC Numeric-Space Evaluation w/o Text-Space Embedding", 
+       subtitle = "Sorted by AUC with Text", 
+       caption = "Source: Duke Health Lab Test Results") +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"), 
+        plot.subtitle = element_text(hjust = 0), 
+        plot.caption = element_text(hjust = 1.5), 
+        axis.text = element_text(size=10, face = "bold")) + 
+  guides(fill=guide_legend(title=NULL))
+  
+ggsave("AUC.png")
+```
+
+# APS
+```{r}
+APS <- full_long %>%
+  filter((type == "APS")|(type == "APS1")) %>%
+  mutate(grouper = factor(grouper, levels = levels(APS1$grouper)), 
+         type = case_when(
+           type == "APS" ~ "Without Text", 
+           TRUE ~ "With Text"
+         ))
+
+APS1 <- APS %>%
+  filter(type == "APS1") %>%
+  mutate(grouper = fct_reorder(grouper, value, .desc = FALSE))
+
+ggplot(AUC1, aes(x = grouper, y = value)) +
+  geom_bar(stat = "identity", position = position_dodge(), alpha = 0.75)
+```
+
+```{r}
+APS_plot <- ggplot(APS, aes(x = grouper, y = value, fill = type)) +
+  geom_bar(stat = "identity", position = position_dodge(), alpha = 0.7) + 
+  theme_minimal() + 
+  scale_fill_manual(values=c('#CC79A7', 'sky blue')) + 
+  coord_flip() + 
+  labs(x = "Grouper Labels", 
+       y = "Values", 
+       title = "APS Numeric-Space Evaluation w/o Text-Space Embedding ", 
+       subtitle = "Sorted by APS with Text", 
+       caption = "Source: Duke Health Lab Test Results") +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"), 
+        plot.subtitle = element_text(hjust = -0.1), 
+        plot.caption = element_text(hjust = 1.5), 
+        axis.text = element_text(size=10, face = "bold")) + 
+  guides(fill=guide_legend(title=NULL))
+  
+ggsave(plot = APS_plot, filename = "APS.png", path = "/Users/hollycui/Desktop")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

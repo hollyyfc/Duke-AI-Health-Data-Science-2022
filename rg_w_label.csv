@@ -1,0 +1,1597 @@
+raw_name,grouper_name,grouper_w_max_sim,max_sim,label_true,label_t,label,tag
+ACT PARTIAL THROMBOPLASTIN TIME     (BKR),aptt,aptt,0.999999943746483,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALANINE AMINOTRANSFERASE     (BKR),alt,alt,0.999999891186402,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALANINE AMINOTRANSFERASE - LABCORP,alt,wbc,0.9890857329000587,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALBUMIN     (BKR),albumin,albumin,0.9999932306463518,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALBUMIN     (BKRAF),albumin,sodium,0.9971932949384261,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALBUMIN - LABCORP,albumin,sodium,0.9987341509247556,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALBUMIN ELECTROPHORESIS - LABCORP,albumin,sodium,0.9976724030307008,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALT    (BKRAF),alt,ldh,0.9999404317203144,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALT (SGPT) P5P (LABCORP)      (BKRREF),alt,ESR,0.9987645078177392,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ALT (SGPT) P5P - LABCORP,alt,sodium,0.986177934634168,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+AMMONIA     (BKR),ammonia,ammonia,0.9999981473063082,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+AMMONIA - LABCORP,ammonia,wbc,0.9855830656152713,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+APTT - LABCORP,aptt,sodium,0.9930157190598847,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+ASPARTATE AMINOTRANSFERASE (BKR),ast,platelet,0.99807955860188,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+AST     (BKR),ast,ast,0.9999999888985934,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+AST     (BKRAF),ast,ldh,0.9997333882400784,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+AST - LABCORP,ast,sodium,0.9922807660548981,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+BAND NEUTROPHIL     (BKR),bandemia,bandemia,0.999999829631889,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+BAND NEUTROPHIL RELATIVE CALC     (BKRAF),bandemia,ESR,0.969348326615263,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+BANDS     (BKR),bandemia,ddimer,0.9945367445988801,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"BICARBONATE, ARTERIAL     (BKR)",bicarb_arterial,bicarb_arterial,0.9999963080243724,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"BICARBONATE, VENOUS     (BKR)",bicarb_venous,bicarb_venous,0.9999131058332895,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+BILIRUBIN TOTAL - LABCORP,bilirubin,albumin,0.9697651656308548,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"BILIRUBIN, TOTAL     (BKR)",bilirubin,bilirubin,0.9999978535495803,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"BILIRUBIN, TOTAL     (BKRAF)",bilirubin,ldh,0.999711779554387,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"BILIRUBIN, TOTAL (BKRREF)",bilirubin,ESR,0.9971974337723915,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"BILIRUBIN, TOTAL - LABCORP",bilirubin,sodium,0.986177934634168,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+BLOOD UREA NITROGEN - LABCORP,bun,sodium,0.9942908672147132,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"CALCIUM,IONIZED     (BKR)",ionized calcium,ionized calcium,0.9999853161672666,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CK-MB     (BKR),ckmb,ckmb,0.9999997753039844,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CK-MB INDEX - LABCORP,ckmb,sodium,0.986177934634168,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"CO2 TOTAL, ARTERIAL     (BKR)",co2_arterial,co2_arterial,0.9999982361536599,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"CO2 TOTAL, VENOUS (BKR)",co2_venous,co2_venous,0.9999343668873729,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CREATINE KINASE (CK)     (BKR),creatinine,ckmb,0.9999770547617135,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"CREATINE KINASE,TOTAL   (BKRAF)",creatinine,lactate,0.9959871582460025,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"CREATINE KINASE,TOTAL,SERUM     (BKR)",creatinine,ckmb,0.9999148624464417,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"CREATINE KINASE,TOTAL,SERUM    (BKRREF)",creatinine,ddimer,0.9935942799908613,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CREATININE     (BKR),creatinine,ldh,0.9997820878337658,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CREATININE     (BKRAF),creatinine,glucose,0.9996443784974376,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CREATININE  - LABCORP,creatinine,sodium,0.9945041226728634,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+CREATININE WHOLE BLOOD     (BKR),creatinine,bandemia,0.9986615002844645,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+D-DIMER     (BKR),ddimer,ddimer,0.9999361893959464,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+D-DIMER - LABCORP,ddimer,fibrinogen,0.9651965244860726,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+FIBRINOGEN     (BKR),fibrinogen,fibrinogen,0.999999999559654,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+FIBRINOGEN - LABCORP,fibrinogen,sodium,0.9861779346341681,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE    (BKR),glucose,glucose,0.9998667658832991,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE    (BKRAF),glucose,aptt,0.998723406470171,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE FASTING     (BKR),glucose,wbc,0.9967391915597059,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE NONFASTING / ABG     (BKR),glucose,platelet,0.9997758376134798,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"GLUCOSE NONFASTING,ARTERIAL     (BKR)",glucose,random_urine_sodium,0.999044143956558,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"GLUCOSE NONFASTING,VENOUS     (BKR)",glucose,po2_arterial,0.9994232858772907,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE NONFASTING-ABG OR     (BKR),glucose,pco2_arterial,0.9962526948326654,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE RANDOM - LABCORP,glucose,sodium,0.9859296687623206,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"GLUCOSE, FASTING     (BKRAF)",glucose,wbc,0.9981318280155326,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE-WHOLE BLOOD     (BKR),glucose,random_urine_sodium,0.9971192364169743,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+GLUCOSE-WHOLE BLOOD     (BKRAF),glucose,wbc,0.9955599172916362,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+HEMATOCRIT     (BKR),hematocrit,hematocrit,0.995882643021762,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+HEMATOCRIT     (BKRAF),hematocrit,albumin,0.9938876239786086,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+HEMATOCRIT   (BKRREF),hematocrit,sodium,0.9910617924683506,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+HEMATOCRIT - LABCORP,hematocrit,sodium,0.9975685867136352,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"HEMATOCRIT, ARTERIAL (BKR)",hematocrit,albumin,0.9945058580838211,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"HEMATOCRIT, VENOUS (BKR)",hematocrit,bicarb_venous,0.996663583127087,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+HEMATOCRIT-WHOLE BLOOD (BKR),hematocrit,albumin,0.9952840684125479,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+INR - LABCORP,inr,sodium,0.9861779346341681,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+IONIZED CALCIUM     (BKR),ionized calcium,wbc,0.9961939558322822,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+IONIZED CALCIUM-WHOLE BLOOD     (BKR),ionized calcium,albumin,0.9964195278534987,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+LACTATE BLOOD     (BKR),lactate,bun,0.9998148259052827,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+LACTATE DEHYDROGENASE     (BKR),ldh,ldh,0.9999999979442044,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+LACTATE DEHYDROGENASE - LABCORP,ldh,pco2_venous,0.9903839615756606,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+LACTATE WHOLE BLOOD     (BKR),lactate,lactate,0.9997589594522955,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"LACTATE,ARTERIAL     (BKR)",lactate,ESR,0.9980514890276742,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"LACTATE,VENOUS     (BKR)",lactate,ammonia,0.9991622876185668,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+MAGNESIUM     (BKR),magnesium,magnesium,0.9999999998947379,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+MAGNESIUM     (BKRAF),magnesium,sodium,0.9944028362326732,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+MAGNESIUM - LABCORP,magnesium,sodium,0.9861779346341681,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"PCO2, ARTERIAL     (BKR)",pco2_arterial,pco2_arterial,0.999995157205697,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"PCO2, VENOUS     (BKR)",pco2_venous,pco2_venous,0.9996903068326736,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+PLATELET COUNT     (BKR),platelet,platelet,0.9999995527960662,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+PLATELET COUNT     (BKRAF),platelet,pco2_arterial,0.9977166609124795,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+PLATELET COUNT - LABCORP,platelet,wbc,0.9945741098872378,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"PO2, ARTERIAL     (BKR)",po2_arterial,po2_arterial,0.9962542324944824,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"PO2, VENOUS     (BKR)",po2_arterial,platelet,0.99959537108406,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC BLOOD GAS POTASSIUM, VENOUS     (BKR)",potassium,wbc,0.9973347423326002,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC BLOOD GAS SODIUM, VENOUS     (BKR)",sodium,sodium,0.9922132445774029,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC CK-MB  (BKR),ckmb,aptt,0.9978304540077604,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC CK-MB (PATHFAST) (BKR),ckmb,wbc,0.9933404950728628,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC CORRECTED PCO2, ARTERIAL     (BKR)",pco2_arterial,pco2_venous,0.9989282983939809,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC CORRECTED PCO2, VENOUS (BKR)",pco2_venous,sodium,0.9941746543991533,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC CORRECTED PO2, ARTERIAL      (BKR)",po2_arterial,random_urine_sodium,0.9969508975023117,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC CORRECTED PO2, VENOUS (BKR)",po2_arterial,pco2_venous,0.9922969527106933,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC CREATININE     (BKR),creatinine,glucose,0.9998785576645793,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC D-DIMER  (BKR),ddimer,bandemia,0.9992128248128355,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC D-DIMER (PATHFAST) (BKR),ddimer,random_urine_sodium,0.9983376688319476,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC GLUCOSE WB (BKR),glucose,pco2_arterial,0.9971781351967683,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC HCO3, ARTERIAL     (BKR)",bicarb_arterial,bicarb_venous,0.9997584297860544,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC HCO3, VENOUS     (BKR)",bicarb_venous,bicarb_venous,0.9998684916666998,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC HEMATOCRIT, ARTERIAL     (BKR)",hematocrit,wbc,0.9985614635892363,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC I STAT BUN    (BKR),bun,random_urine_sodium,0.9992208105025564,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC I STAT GLUCOSE     (BKR),glucose,aptt,0.9958973815326926,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC I STAT HEMATOCRIT (BKR),hematocrit,albumin,0.9978337697694994,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC I STAT POTASSIUM     (BKR),potassium,wbc,0.9998355550545592,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC I STAT SODIUM     (BKR),sodium,sodium,0.9963123895778613,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC IONIZED CALCIUM, ARTERIAL      (BKR)",ionized calcium,albumin,0.9930991014177675,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC LACTATE, ARTERIAL     (BKR)",lactate,bandemia,0.9988865394786453,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC PCO2, ARTERIAL     (BKR)",pco2_arterial,pco2_venous,0.9993858375065053,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC PCO2, VENOUS     (BKR)",pco2_venous,bicarb_venous,0.9987228051859304,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC PO2, ARTERIAL     (BKR)",po2_arterial,random_urine_sodium,0.9971681255928675,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC PO2, VENOUS     (BKR)",po2_arterial,aptt,0.9971627536943345,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC POTASSIUM, ARTERIAL     (BKR)",potassium,albumin,0.9950365167183598,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POC SED RATE     (BKR),ESR,ESR,0.9991658953002619,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC SODIUM, ARTERIAL     (BKR)",sodium,sodium,0.9946473730105038,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC TCO2, ARTERIAL     (BKR)",co2_arterial,albumin,0.9977344367523994,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POC TCO2, VENOUS (BKR)",co2_venous,albumin,0.9986080587093641,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POTASSIUM     (BKR),potassium,ionized calcium,0.9990997765185125,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POTASSIUM     (BKRAF),potassium,sodium,0.9930579218017733,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POTASSIUM - LABCORP,potassium,sodium,0.9932361500414942,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POTASSIUM, ARTERIAL     (BKR)",potassium,ionized calcium,0.9976504669773252,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"POTASSIUM, VENOUS     (BKR)",potassium,bicarb_arterial,0.9999280242030734,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+POTASSIUM. WHOLE BLOOD     (BKR),potassium,wbc,0.9977730344307172,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+SED RATE - LABCORP,ESR,fibrinogen,0.9836751987336522,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+SEDIMENTATION RATE-AUTOMATED     (BKR),ESR,ESR,0.9996951856315641,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+SEDIMENTATION RATE-AUTOMATED     (BKRAF),ESR,random_urine_sodium,0.9995187863662699,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+SODIUM     (BKR),sodium,sodium,0.9999965831060561,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+SODIUM     (BKRAF),sodium,sodium,0.9948314971928683,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+SODIUM - LABCORP,sodium,sodium,0.9885150453909186,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"SODIUM, ARTERIAL     (BKR)",sodium,sodium,0.9991530736689663,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"SODIUM, RANDOM URINE     (BKR)",random_urine_sodium,random_urine_sodium,1.0000000000000002,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"SODIUM, VENOUS     (BKR)",sodium,sodium,0.9991426356147777,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+"SODIUM, WHOLE BLOOD     (BKR)",sodium,sodium,0.9960369493045506,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+UREA NITROGEN     (BKR),bun,bun,0.9999921752633615,1,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+UREA NITROGEN     (BKRAF),bun,platelet,0.9989879792102402,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+UREA NITROGEN-WHOLE BLOOD     (BKR),bun,random_urine_sodium,0.9983647741342139,0,0,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",non-wbc
+WHITE BLOOD CELL COUNT - LABCORP,wbc,wbc,0.9999999999999999,1,1,"0         aptt
+1          alt
+2          alt
+3      albumin
+4      albumin
+        ...   
+128     sodium
+129        bun
+130        bun
+131        bun
+132        wbc
+Name: grouper_name, Length: 133, dtype: object",wbc
