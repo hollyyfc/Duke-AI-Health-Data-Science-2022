@@ -2,7 +2,7 @@
 
 This public repository represents Holly Cui's independent research _Lab Test Harmonization_ under Duke AI Health Data Science Summer and Fall 2022 program. 
 
-<embed src="Holly Final Poster.pdf" type="application/pdf">
+<embed src="Holly Final Poster.pdf" type="pdf">
 
 
 **Supporting documents of results are provided while the institution maintains the data.**
